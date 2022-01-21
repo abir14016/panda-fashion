@@ -17,39 +17,109 @@
 </head>
 <body>
     <!-- header section -->
-    <header>
+    <header class="">
         <!-- navigation  -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container bg-light p-2">
-              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="brang-logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
-                  </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light mb-5">
+                <div class="container bg-light p-3  rounded-3">
+                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="brang-logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Shoes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Backpack</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Subscribe</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+             </nav>
+        <!-- navigation  -->
+
+        <!-- image slider  -->
+        <section class="container p-4  mb-5 rounded-3 carousol-background">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="1500">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7 d-flex justify-content-center">
+                            <div>
+                                <h1>Cool Dude Headphone</h1>
+                                <p>
+                                This is the best headphone in the world for people who just want to waste time <br> in front of funky world!
+                                <h1 class="price">$420</h1>
+                                <button type="button" class="btn buy-now-button">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-flex justify-content-center">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>  
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7 d-flex justify-content-center">
+                            <div>
+                                <h1>X-Box For Your Living Room</h1>
+                                <p>
+                                This is the best x-box in the world for people who just want to waste time <br> in front of fake sports!
+                                <h1 class="price">$600</h1>
+                                <button type="button" class="btn buy-now-button">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-flex justify-content-center">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7 d-flex justify-content-center">
+                            <div>
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>
+                                This is the best LCD tv in the world for people who just want to waste time <br> in front of tv!
+                                <h1 class="price">$420</h1>
+                                <button type="button" class="btn buy-now-button">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-flex justify-content-center">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-            </div>
-         </nav>
-        <!-- navigation  -->
+        </div>
+        <!-- image slider  -->
     </header>
     <!-- header section -->
-
+        
     <!-- main section -->
     <main>
-
+        
     </main>
     <!-- main section -->
 
