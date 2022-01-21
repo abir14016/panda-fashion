@@ -16,3 +16,21 @@ body{
     border-radius: 8px;
     padding: 9px 25px;
 }
+.bg-watch{
+    background-color: #ffa500;
+}
+.bg-bag{
+    background-color: #da70d6;
+}
+.bg-shoe{
+    background-color: #0000ff;
+}
+.white-text{
+    color: white;
+}
+.red-text{
+    color: rgb(245, 14, 14);
+}
+.big-text{
+    font-size: 50px;
+}
