@@ -46,3 +46,18 @@ body{
 .big-text{
     font-size: 50px;
 }
+.big-border-radius{
+    border-radius: 10px;
+}
+.image-rotate:hover{
+    transform: rotate(30deg);
+    transition: transform 0.35s ease-in-out;
+}
+.image-scale-up:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+.image-rotate-negetive:hover{
+    transform: rotate(-30deg);
+    transition: transform 0.35s ease-in-out;
+}
