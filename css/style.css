@@ -2,7 +2,19 @@ body{
     margin: 0;
     padding: 0;
 }
+.margin-top{
+    margin-top: 5%;
+}
+.slider-margin-top{
+    margin-top: 10%;
+}
+.margin-bottom{
+    margin-bottom: 5%;
+}
 
+.image-slider-margin{
+    margin-top: 10%;
+}
 .carousol-background{
     background-color: #fceae8;
 }
