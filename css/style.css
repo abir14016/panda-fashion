@@ -11,10 +11,6 @@ body{
 .margin-bottom{
     margin-bottom: 5%;
 }
-
-.image-slider-margin{
-    margin-top: 10%;
-}
 .carousol-background{
     background-color: #fceae8;
 }
@@ -60,4 +56,22 @@ body{
 .image-rotate-negetive:hover{
     transform: rotate(-30deg);
     transition: transform 0.35s ease-in-out;
+}
+
+
+/* for small screen  */
+@media only screen and (max-width: 688px){
+    .image-slider-margin-sm{
+        margin-top: 17%;
+    }
+    .text-align-middle-sm{
+        text-align: center;
+    }
+    .text-align-justify-sm{
+        text-align: justify;
+    }
+    .padding-top-sm{
+        padding-top: 2%;
+    }
+
 }
